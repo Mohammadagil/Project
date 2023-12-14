@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Agil</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#pendidikan">Pendidikan</a>
+          </li>
+          <li>
+            <a href="#keahlian">Keahlian</a>
+          </li>
+          <li>
+            <a href="#pengalaman">Pengalaman</a>
+          </li>
+          <li>
+            <a href="#sosial-media">Sosial Media</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="jumbotron">
+        <h1>Mohammad agil</h1>
+        <p>
+          Mahasiswa jurusan Informatika di UPN Veteran Jawa Timur. <br />
+          Seseorang yang jujur, bertanggung jawab, cakap, dan dapat diandalkan.
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <div class="content2">
+          <article id="pendidikan" class="card">
+            <h2>Pendidikan</h2>
+            <img src="assets/img/campus.jpg" alt="" class="article-img" />
+            <p>SDN Jemundo 2 Taman. (2008-2014)</p>
+            <p>SMP Muhammadiyah 2 Taman. (2014-2017)</p>
+            <p>SMA Muhammadiyah 1 Taman. (2017-2020)</p>
+            <p>UPN Veteran Jawa Timur.(Sedang berlangsung)</p>
+          </article>
+          <article id="keahlian" class="card">
+            <h2>Keahlian</h2>
+            <img src="assets/img/skills.jpg" alt="" class="article-img" />
+            <h3>Desain Antarmuka</h3>
+            <p>Mampu membuat desain atarmuka dengan fitur yang menarik, visual yang memikat, dan elemen antarmuka yang responsif. Dengan mengggunakan software Figma.</p>
+            <h3>Frontend Development</h3>
+            <p>Dapat membuat tampilan sederhana dari sebuah website, dengan mengimplementasikan hasil mockup kedalam pemrogramman.</p>
+          </article>
+        </div>
+        <article id="pengalaman" class="card">
+          <h2>Pengalaman</h2>
+          <img src="assets/img/experience.jpg" alt="" class="article-img" />
+          <h3>Pelatihan HTML & CSS (Progate)</h3>
+          <p>Pelatihan HTML & CSS kurang lebih 2 bulan yang diadakan oleh progate. Progate merupakan platform pembelajaran programming yang berasal dari Jepang dengan lebih dari 3 juta pengguna.</p>
+          <h3>Pembuatan MockUp dan Prototype (Figma)</h3>
+          <p>
+            Membuat Mockup dan Prototype website atau aplikasi mobile bertema kesehatan bernama MediCo. Website/aplikasi tersebut bertujuan untuk membantu masyarakat dalam menjaga kesehatan mereka, aplikasi berperan sebagai partner mereka
+            untuk tetap sadar dan taat dalam melakukan hal positif sebagai bentuk menjaga kesehatan mereka.
+          </p>
+          <h3>Pembuatan Website Perbandingan Harga</h3>
+          <p>
+            Membuat website perbandingan harga secara kelompok. Website ini bertujuan agar pengguna dapat membandingkan suatu harga barang diantara supermarket di beberapa tempat yang berbeda, kemudian juga dapat menampilkan harga termurah
+            dari barang yang di cari.<br /><br />Pembuatan : HTML untuk membuat konten, CSS untuk desin, PHP untuk menghubungkan konten dengan database, MySQL, XAMPP. Bagian Website : Halaman pengguna, dan halaman admin untuk mengelolah
+            data barang.
+          </p>
+        </article>
+      </div>
+      <aside>
+        <div class="card">
+          <article id="sosial-media">
+            <header>
+              <img src="assets/img/agil2.jpg" alt="" class="aside-img" />
+              <h2>Sosial Media</h2>
+            </header>
+            <table>
+              <tr>
+                <td><i class="fa-brands fa-instagram"></i></td>
+                <td>11agil</td>
+              </tr>
+              <tr>
+                <td><i class="fa-brands fa-facebook"></i></td>
+                <td>Agil Zein</td>
+              </tr>
+              <tr>
+                <td><i class="fa-brands fa-whatsapp"></i></td>
+                <td>0895620058927</td>
+              </tr>
+            </table>
+          </article>
+          <article class="contact">
+            <header>
+              <h2>Hubungi Saya</h2>
+            </header>
+            <div class="inputbox">
+              <label for="nama">Nama :</label>
+              <input type="text" id="nama" />
+            </div>
+            <div class="inputbox">
+              <label for="email">Email :</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="inputbox">
+              <label for="kritik-saran">Kritik/Saran :</label>
+              <div>
+                <textarea id="kritik-saran" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <div>
+              <input type="submit" value="Kirim" />
+            </div>
+          </article>
+        </div>
+      </aside>
+    </main>
+    <script src="index.js"></script>
+
+    <footer>
+      <p>&copy Portofolio Mohammad agil 2k23</p>
+    </footer>
+  </body>
+</html>
