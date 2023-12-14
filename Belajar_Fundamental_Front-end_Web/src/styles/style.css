@@ -1,0 +1,67 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-main{
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: start;
+
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.main-title-movie{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-title-movie h4{
+    font-weight: bolder;
+}
+
+.card-body{
+    display: flex;
+    flex-direction : column;
+}
+
+.card-body .title-movie{
+    display: flex;
+    background-color: aqua;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card-body img{
+    border-radius: 10px;
+}
+
+.rate{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
