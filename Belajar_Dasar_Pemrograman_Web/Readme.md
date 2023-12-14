@@ -1,1 +1,1 @@
-#### Membuat halaman website biodata saya dengan menerapkan html dan css, serta menggunakan flexbox.
+#### Membuat Halaman Website Biodata Saya Dengan Menerapkan Html dan Css, Serta Menggunakan Flexbox.
